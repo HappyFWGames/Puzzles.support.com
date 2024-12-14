@@ -26,11 +26,16 @@
         }
         .grid-item {
             text-align: center;
+    display: inline-block;
+    overflow: hidden;
         }
         .grid-item img {
-            max-width: 100%;
-            height: auto;
-        }
+   
+            object-fit: cover;
+    width: 90%;
+    height: 90%; /* 可选，但为了清晰起见，我保留了它 */
+}
+
         .title {
             margin-top: 5px; /* Space between image and title */
             font-size: 1.2em;
